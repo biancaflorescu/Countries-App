@@ -1,3 +1,3 @@
 # Countries-App
 
-App about countries inspired from Jonas Schmedtmann
+App about countries inspired by Jonas Schmedtmann
