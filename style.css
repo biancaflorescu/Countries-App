@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  /* border: 1px solid black; */
+  width: 25rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px 4px #00000030;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
+
+.container {
+  padding: 2rem 4rem;
+}
+
+.flag {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.title {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.continent {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.content {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.intro h1 {
+  font-size: 3rem;
+}
+
+.input-container {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.input-container input {
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+.error {
+  margin-top: 1rem;
+  color: red;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media (max-width: 1550px) {
+  body {
+    padding: 5px;
+  }
+}
